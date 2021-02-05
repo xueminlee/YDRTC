@@ -50,7 +50,7 @@ UITextFieldDelegate
     self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
      [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
 //    self.edgesForExtendedLayout = UIRectEdgeNone;
-    self.view.backgroundColor = QRD_GROUND_COLOR;
+    self.view.backgroundColor = [UIColor blackColor];
     
     _userString = [[NSUserDefaults standardUserDefaults] objectForKey:QN_USER_ID_KEY];
     
@@ -62,7 +62,7 @@ UITextFieldDelegate
     [self setupLogoView];
     
     self.imageView = [[UIImageView alloc] initWithFrame:CGRectMake(95, QRD_LOGIN_TOP_SPACE + 192, QRD_SCREEN_WIDTH - 198, QRD_SCREEN_HEIGHT - QRD_LOGIN_TOP_SPACE - 340)];
-    self.imageView.image = [UIImage imageNamed:@"qn_niu"];
+//    self.imageView.image = [UIImage imageNamed:@"qn_niu"];
     [self.view insertSubview:_imageView atIndex:0];
 }
 
@@ -125,7 +125,7 @@ UITextFieldDelegate
     logoLabel.textColor = [UIColor whiteColor];
     logoLabel.textAlignment = NSTextAlignmentLeft;
     logoLabel.font = QRD_LIGHT_FONT(16);
-    logoLabel.text = @"牛会议";
+    logoLabel.text = @"直播Demo";
     [self.view addSubview:logoLabel];
 }
 

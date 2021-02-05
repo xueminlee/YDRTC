@@ -109,7 +109,7 @@ QRDSettingViewDelegate
     logoLabel.textColor = [UIColor whiteColor];
     logoLabel.textAlignment = NSTextAlignmentLeft;
     logoLabel.font = QRD_LIGHT_FONT(16);
-    logoLabel.text = @"牛会议";
+    logoLabel.text = @"直播Demo";
     [self.view addSubview:logoLabel];
 
     UILabel *versionLabel = [[UILabel alloc] initWithFrame:CGRectMake(QRD_SCREEN_WIDTH / 2 - 20, bottomSpace + 12, 40, 10)];
