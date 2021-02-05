@@ -52,9 +52,9 @@
     [self.agreementButton setImage:[UIImage imageNamed:@"choose"] forState:UIControlStateSelected];
     [self addSubview:self.agreementButton];
 
-    NSString *agreementText = @"同意牛会议用户协议";
+    NSString *agreementText = @"同意直播Demo用户协议";
     NSRange rangeA = [agreementText rangeOfString:@"同意"];
-    NSRange rangeB = [agreementText rangeOfString:@"牛会议用户协议"];
+    NSRange rangeB = [agreementText rangeOfString:@"直播Demo用户协议"];
     NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:agreementText];
     [attributedString addAttribute:NSForegroundColorAttributeName value:[UIColor whiteColor] range:rangeA];
     [attributedString addAttribute:NSForegroundColorAttributeName value:QRD_COLOR_RGBA(45, 152, 212, 1) range:rangeB];
