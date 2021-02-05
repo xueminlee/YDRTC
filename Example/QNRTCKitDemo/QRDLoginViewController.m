@@ -121,7 +121,7 @@ UITextFieldDelegate
     logoImageView.image = [UIImage imageNamed:@"logo"];
     [self.view addSubview:logoImageView];
     
-    UILabel *logoLabel = [[UILabel alloc] initWithFrame:CGRectMake(QRD_SCREEN_WIDTH/2 + 19, bottomSpace - 36, 68, 36)];
+    UILabel *logoLabel = [[UILabel alloc] initWithFrame:CGRectMake(QRD_SCREEN_WIDTH/2 + 19, bottomSpace - 36, 100, 36)];
     logoLabel.textColor = [UIColor whiteColor];
     logoLabel.textAlignment = NSTextAlignmentLeft;
     logoLabel.font = QRD_LIGHT_FONT(16);

@@ -228,14 +228,14 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "07E60F42-6185-4E7E-9D2F-11E4CF29132F - 60bc53070e26a21e"
+                  uuid = "07E60F42-6185-4E7E-9D2F-11E4CF29132F - c591dc28ad19611c"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "__74+[QRDNetworkUtil requestRoomUserListWithRoomName:appId:completionHandler:]_block_invoke"
                   moduleName = "QNRTCKitDemo"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/admin/Dev/QU/QNRTC-iOS/Example/QNRTCKitDemo/QRDNetworkUtil.m"
+                  urlString = "file:///Users/admin/Dev/QU/YDRTC/Example/QNRTCKitDemo/QRDNetworkUtil.m"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "64"
@@ -243,14 +243,14 @@
                   offsetFromSymbolStart = "388">
                </Location>
                <Location
-                  uuid = "07E60F42-6185-4E7E-9D2F-11E4CF29132F - 9fda52b7b0069409"
+                  uuid = "07E60F42-6185-4E7E-9D2F-11E4CF29132F - 3af7dd9813395707"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "__74+[QRDNetworkUtil requestRoomUserListWithRoomName:appId:completionHandler:]_block_invoke_3"
                   moduleName = "QNRTCKitDemo"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/admin/Dev/QU/QNRTC-iOS/Example/QNRTCKitDemo/QRDNetworkUtil.m"
+                  urlString = "file:///Users/admin/Dev/QU/YDRTC/Example/QNRTCKitDemo/QRDNetworkUtil.m"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "65"
@@ -385,6 +385,70 @@
             startingLineNumber = "88"
             endingLineNumber = "88"
             landmarkName = "-setupJoinRoomView"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "825C51F1-F7D9-4BD0-A301-03191D51851B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QNRTCKitDemo/QRDSettingViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "-saveAction:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B766F3C5-E0C3-4C24-996D-E256D2F3E2DF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QNRTCKitDemo/QRDSettingViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
+            landmarkName = "-saveAction:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "852AC57B-F59D-4AE4-9C67-71B66EE8FFB8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QNRTCKitDemo/QRDSettingViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "-saveAction:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D1314D42-E0E2-47C5-986E-7A83D1A4A9E8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QNRTCKitDemo/QRDSettingViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "-setupSettingView"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

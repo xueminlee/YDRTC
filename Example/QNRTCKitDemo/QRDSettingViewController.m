@@ -83,7 +83,7 @@ QRDSettingViewDelegate
         selectedIndex = 1;
     }
 
-    NSString *placeholderText = [self getValueForKey:QN_USER_ID_KEY];
+    NSString *placeholderText = @"用户名字";// [self getValueForKey:QN_USER_ID_KEY];
     NSString *appIdText = [self getValueForKey:QN_APP_ID_KEY];
     if ([self checkStringLengthZero:appIdText]) {
         appIdText = QN_RTC_DEMO_APPID;
